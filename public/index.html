@@ -9,6 +9,7 @@
     <script defer src="/__/firebase/5.8.0/firebase-app.js"></script>
     <!-- initialize the SDK after all desired features are loaded -->
     <script defer src="/__/firebase/init.js"></script>
+    <link  rel='stylesheet' href="./index.css"></link>
 
     <style media="screen">
       body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
@@ -29,11 +30,22 @@
 	<audio controls autoplay style="display:none" loop>
   	<source src="./assets/bg-audio.mp3" type="audio/mpeg">
 	</audio>
-    <div id="message">
+    <div class="knows" id="knows">
+      Taraon <a href="https://http2.pro/check?url=https%3A//taraon.tk/" target="_blank">supports</a> HTTP/2 !
+    </div>
+
+    <div id="root"></div>
+    <div class="welcome">
       <h2>Welcome</h2>
-      <h1>Taraon Setup Complete</h1>
-      <p>You're seeing this because you are a fun of a great person. Now it's time to go build something extraordinary!</p>
+      <h1>Taraon fun official club</h1>
+      <p>You're seeing this because you are a fan of a great person. Now it's time to go build something extraordinary!</p>
+      <div class="bestGifEver">
+        <img src="assets/bestGifEver(167).gif">
+      </div>
       <p>Ծառ չի, գնացք ա</p>
+    </div>
+    <div class="ezntKnow" id="ezntKnow">
+
     </div>
     <p id="load">Firebase SDK Loading&hellip;</p>
 
@@ -59,5 +71,6 @@
         }
       });
     </script>
+    <script  src="./main.js"></script>
   </body>
 </html>

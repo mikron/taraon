@@ -1,0 +1,34 @@
+{
+  "name": "taraon",
+  "version": "1.0.0",
+  "description": "Taraon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch --watch-poll --config webpack.common.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikron/taraon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikron/taraon/issues"
+  },
+  "homepage": "https://github.com/mikron/taraon#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.0.5",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "jsx-transform": "^2.4.0",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
+  }
+}
