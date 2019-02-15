@@ -4,7 +4,7 @@ const jsxTransform = require('jsx-transform');
 module.exports =  {
     entry: './src/index.js',
     output: {
-        path: `${__dirname}/public`
+        path: `${__dirname}/public/scripts`
     },
     plugins: [
     ],
