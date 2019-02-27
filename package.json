@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack --watch --watch-poll --config webpack.common.js"
+    "start": "webpack --watch --watch-poll --config webpack.common.js",
+    "build": "webpack --config webpack.prod.js",
+    "prettier": "prettier --write '**/*.js'"
+
   },
   "repository": {
     "type": "git",
@@ -22,6 +25,7 @@
     "@babel/preset-react": "^7.0.0",
     "babel": "^6.23.0",
     "babel-loader": "^8.0.5",
+    "prettier": "1.16.4",
     "uglifyjs-webpack-plugin": "^2.1.1",
     "webpack": "^4.29.3",
     "webpack-cli": "^3.2.3"

@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #05182d;
+}
+
+@-webkit-keyframes backgroundAnimate {
+    from {
+        left: 0;
+        top: 0;
+    }
+    to {
+        left: -10000px;
+        top: -2000px;
+    }
+}
+
+@-moz-keyframes backgroundAnimate {
+    from {
+        left: 0;
+        top: 0;
+    }
+    to {
+        left: -10000px;
+        top: -2000px;
+    }
+}
+
+@-o-keyframes backgroundAnimate {
+    from {
+        left: 0;
+        top: 0;
+    }
+    to {
+        left: -10000px;
+        top: -2000px;
+    }
+}
+
+@keyframes backgroundAnimate {
+    from {
+        left: 0;
+        top: 0;
+    }
+    to {
+        left: -10000px;
+        top: -2000px;
+    }
+}
+
+#back {
+    background: url(/assets/carot.jpeg) repeat 20% 20%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.4;
+    z-index: -1;
+    -webkit-animation-name: backgroundAnimate;
+    -webkit-animation-duration: 500s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-name: backgroundAnimate;
+    -moz-animation-duration: 5s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-name: backgroundAnimate;
+    -o-animation-duration: 500s;
+    -o-animation-timing-function: linear;
+    -o-animation-iteration-count: infinite;
+    animation-name: backgroundAnimate;
+    animation-duration: 500s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#front {
+    background: url(/assets/carot.jpeg) repeat 35% 35%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.6;
+    z-index: -1;
+    -webkit-animation-name: backgroundAnimate;
+    -webkit-animation-duration: 300s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-name: backgroundAnimate;
+    -moz-animation-duration: 300s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-name: backgroundAnimate;
+    -o-animation-duration: 300s;
+    -o-animation-timing-function: linear;
+    -o-animation-iteration-count: infinite;
+    animation-name: backgroundAnimate;
+    animation-duration: 300s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}

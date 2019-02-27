@@ -1,6 +1,3 @@
-const Uglify = require("uglifyjs-webpack-plugin");
-const jsxTransform = require("jsx-transform");
-
 module.exports = {
   entry: "./src/index.js",
   output: {
@@ -8,7 +5,7 @@ module.exports = {
   },
   plugins: [],
   devtool: "source-map",
-  mode: "development",
+  mode: "production",
   module: {
     rules: [
       {
